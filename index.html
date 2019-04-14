@@ -1,65 +1,540 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  <meta charset="utf-8">
+  <title>Home</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
     <meta name="author" content="Chiranjit Biswas" >
     <meta name="description" content="Flex Elevators" >
-    <meta name="keywords" content="flex, elevators, flex elevators" >
+    <meta name="keywords" content="flex, elevators, flex elevators,lift company,elevators company,chiranjit,chiranjit biswas" >
     <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta property="og:image" content="flexlogo.jpeg">
+    <meta property="og:image" content="static/image/flexlogo.jpeg">
     <meta name="theme-color" content="#ff0000">
-<title>
-flex elevators
-</title>
-<style>
-@font-face {
-  font-family: 'Aclonica';
-  src: URL('aclonica/Aclonica.ttf') format('truetype');
-}
-body {
-  font-family: 'Aclonica', Fallback, sans-serif;
-}
-</style>
-  <link rel="stylesheet" href="animate.css">
-     <link rel="canonical" href="https://flexelevators.com" />
-<script type="text/javascript">
-    var host = "flexelevators.com";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
-</script>
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File 
+  <link href="{% static 'flex/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+-->
+  <!-- flexraries CSS Files -->
+  <link href="static/flex/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="static/flex/animate/animate.min.css" rel="stylesheet">
+  <link href="static/flex/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="static/flex/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="static/css/style.css" rel="stylesheet">
+  <link href="static/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: EstateAgency
+    Theme URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+  	<style>
+		#ndiv{
+		color:red;
+		}
+		.head{
+		border:1px solid red}
+		#innerdiv{
+		width:100px;height:100px;border:1px solid red;
+		}
+	</style>
 </head>
 
 <body>
+  <div class="click-closed"></div>
 
-<div style="text-align:center" class="animated slideInLeft"><img src="flexlogo.jpeg" class="animated infinite bounce delay-1s" style="width:120px;margin-top:70px;margin-bottom:20px"alt="Flex"></div>
-<div style="text-align:center;font-size:20px;color:#555" class="animated fadeIn">This Page is under Construction.<br>
-<div style="font-size:13px;line-height:22px;  font-family: Arial, Helvetica, sans-serif;">
-	<span  style="color:red;font-size:18px">FLEX ELEVATORS</span><br>
-	OFFICE : 40/1, H. L. Sarkar Road ,Bansdroni, Kolkata-700070, West Bengal<br>
-	CONTACT NO: +91 9883768210 / +91 7596945627 / +91 9874346514<br>
-	EMAIL  : <a style="font-size:15px;text-decoration:none;color:red" target="_blank" href="mailto:flexelevators18@gmail.com?Subject=Contacted%20from%20Website" title="Flex Elevators on Email">flexelevators18@gmail.com</a>
-</div>
-</div>
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="" href="index.html"> <img src="static/images/flexlogo.jpeg" alt="" style="height:80px" >
+          </a>
+      
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault" >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link home " onclick="scrolldiv('home')">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link about"   onclick="scrolldiv('about')">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link service" onclick="scrolldiv('service')" >Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link product" onclick="scrolldiv('product')"  >Products</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link team" onclick="scrolldiv('team')" >Our Team</a>
+          </li>
+		   
+        <!--<li class="nav-item">
+            <a class="nav-link" href="property-grid.html">Team</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="blog-grid.html">Reviews</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="contact.html"><i class="fa fa-envelope"></i></a>
+          </li>-->
+         
+       
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+		  
+        </ul>
+      </div>
 
-<div style="position:absolute;width:100%;min-height:100px;left:0%;bottom:0%;">
-<div style="display:inline-block;text-align:center; font-family: Arial, Helvetica, sans-serif;float:right;padding:5px 15px 5px 0px">Maintain by <a  style="color:red" target="_blank" href="https://chiranjit.dev/" title="Chiranjit's website" ><b>CHIRANJIT</b></a></div>
-	<div style="height:80px;display:inline-block;width:100%;border-top:3px solid #aaa">
-		<img src="flex.jpeg"  style="height:100%;" alt="Flex Elevators">
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+  <!--/ Carousel Star /-->
+  <div class="intro intro-carousel" id="home">
+    <div id="carousel" class="owl-carousel owl-theme">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url('static/img/background1.jpeg');background-size:cover;background-position:center;">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">We Provide,</p>
+                    <h1 class="intro-title mb-4">
+                      24 <span style="color:red"> <i class="fa fa-times"></i> </span>  7 
+                      <br> Customer Services</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url('static/img/background2.jpeg');background-size:cover;background-position:center;">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">We are building</p>
+                    <h1 class="intro-title mb-4">
+                      <span style="color:Red">Dreams </span>
+                      <br> with Elevators</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url('static/img/background3.jpeg');background-size:cover;background-position:center;">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Next to</p>
+                    <h1 class="intro-title mb-4">
+                      <span style="color:Red">Your </span>
+                      <br> Door Steps</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Carousel end /-->
+  <!--/ About Section /-->
+  <div class="container">
+	<div  class="row"  id="about">
+		<div class="col-md-6 col-sm-12 col-xs-12 image-div-about"  >
+			
+			<div  class="image-tag-container">
+				<img src="static/img/AboutUs.jpeg" class="wow bounceInLeft image-tag-about">
+				<!--<div class="image-tag-upper" ></div>-->
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12" style="">
+			<h1 class="about-tag-color">About Us</h1>
+			Flex Elevators is the conception of some experienced 
+			persons of the Elevators Industry,who are directly
+			involved in the industry for more than a decade.We are
+			all from the administrative,marketing and technical sector
+			to give the customers ultimate satisfaction of all type of Elevators.
+			<br><br>
+			Our zeal to give customers better quality of Elevators with 100% safety
+			and guaranteed after sales service at competitive price which put us in high
+			reputation in the market.
+		</div>
+	</div>
+   </div>
+	<!--/ About Section end /-->
+	
+	  <!--/ Services Section /-->
+	  <!--/ Services Section JS / -->
+	
+		 <!--/ Services Section JS END / -->
+  <div class="container" >
+	<div  class="row"  id="service" style="text-align:center" >
+		<div style="width:100%;text-align:center">
+			<h1 class="service-tag" style="padding-bottom:70px !important;">Our Services</h1>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  service-div"  >
+			<div class="service-main-div wow zoomIn">
+				<div  class="service_round_badge_container ">
+					<div class="service_badge">
+					<i class="fa fa-gears"></i>&nbsp;&nbsp;INSTALLATION
+					</div>
+				</div>
+				<div class="service-info " style="background-image: url('static/img/service1.jpeg');">
+				</div>
+				<a href="contact.html" class="service-contact animated fadeIn">
+					<b>Connect With Us</b>
+				</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  service-div" >
+			<div class="service-main-div wow zoomIn">
+				<div  class="service_round_badge_container ">
+					<div class="service_round_badge">
+					<i class="fa fa-wrench"></i>&nbsp;&nbsp;AMC
+					</div>
+				</div>
+				<div class="service-info " style="background-image: url('static/img/service2.jpeg');background-position:right">
+				</div>
+				<a href="contact.html" class="service-contact animated fadeIn">
+					<b>Connect With Us</b>
+				</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  service-div" >
+			<div class="service-main-div wow zoomIn">
+				<div  class="service_round_badge_container ">
+					<div class="service_round_badge">
+					<i class="fa fa-wrench"></i>&nbsp;&nbsp;BREAKDOWN
+					</div>
+				</div>
+				<div class="service-info " style="background-image: url('static/img/service3.jpeg');background-position:left">
+				</div>
+				<a href="contact.html" class="service-contact animated fadeIn">
+					<b>Connect With Us</b>
+				</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  service-div" >
+			<div class="service-main-div wow zoomIn">
+				<div  class="service_round_badge_container ">
+					<div class="service_round_badge">
+					<i class="fa fa-gear"></i>&nbsp;&nbsp;REMODIFICATION
+					</div>
+				</div>
+				<div class="service-info" style="background-image: url('static/img/service4.jpeg');background-position:right" >
+				</div>
+				<a href="contact.html" class="service-contact animated fadeIn">
+					<b>Connect With Us</b>
+				</a>
+			</div>
+		</div>
+
+	</div>
+   </div>
+	<!--/ Services Section end /-->
+	<!--/product Section Start /-->
+	 <div class="container" style="background-color:#fafafa " >
+		<div  class="row"  id="product" style="text-align:center" >
+			<div style="width:100%;text-align:center">
+				<h1 class="product-tag">Our Products</h1>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 fig-div"  >
+					<figure class="fig wow zoomIn" ><i class="fa  fa-building " ></i></figure>
+						<div class="round-div-header"><b >Manual Collapsible Door</b></div>
+						<a href="contact.html" class="product-join-info">Join with Us <i class="fa fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 fig-div"  >
+					<figure class="fig wow zoomIn" ><i class="fa  fa-building " ></i></figure>
+						<div class="round-div-header"><b >Swing Door</b></div>
+						<a href="contact.html" class="product-join-info">Join with Us <i class="fa fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 fig-div"  >
+					<figure class="fig wow zoomIn" ><i class="fa  fa-building " ></i></figure>
+						<div class="round-div-header"><b >Manual Telescopic Door</b></div>
+						<a href="contact.html" class="product-join-info">Join with Us <i class="fa fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 fig-div"  >
+					<figure class="fig wow zoomIn" ><i class="fa  fa-building " ></i></figure>
+						<div class="round-div-header"><b >Auto Telescopic Door</b></div>
+						<a href="contact.html" class="product-join-info">Join with Us <i class="fa fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 fig-div"  >
+					<figure class="fig wow zoomIn" ><i class="fa  fa-building " ></i></figure>
+						<div class="round-div-header"><b >Center Opening Auto Door</b></div>
+						<a href="contact.html" class="product-join-info">Join with Us <i class="fa fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 fig-div"  >
+					<figure class="fig wow zoomIn" ><i class="fa  fa-building " ></i></figure>
+						<div class="round-div-header"><b >Home Elevator</b></div>
+						<a href="contact.html" class="product-join-info">Join with Us <i class="fa fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 fig-div"  >
+					<figure class="fig wow zoomIn" ><i class="fa  fa-building " ></i></figure>
+						<div class="round-div-header"><b >MRL Elevator</b></div>
+						<a href="contact.html" class="product-join-info">Join with Us <i class="fa fa-arrow-circle-right"></i></a>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 fig-div"  >
+					<figure class="fig wow zoomIn" ><i class="fa  fa-building " ></i></figure>
+						<div class="round-div-header"><b >Hospital Elevator</b></div>
+						<a href="contact.html" class="product-join-info">Join with Us <i class="fa fa-arrow-circle-right"></i></a>
+			</div>
+			
+			
+			
+			
+		</div>
 	</div>
 	
-
-</div>
+	<!--/product Section end /-->
 	
+	<!--/team Section Start /-->
+	 <div class="container" >
+		<div  class="row"  id="team" style="text-align:center" >
+			<div style="width:100%;text-align:center">
+				<h1 class="team-tag">Our Members</h1>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 team-div"  >
+					<div class="team-main wow fadeInUp">
+						<img src="static/img/Anupam.jpg" class="team-image">
+						<div class="team-info">
+							<span class="team-name" ><b>Anupam Basu Moulik</b></span><br>
+							<span class="team-desig"  >Administrative Officer</span>
+						</div>
+					</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 team-div"  >
+					<div class="team-main wow fadeInUp">
+						<img src="static/img/anil.jpg" class="team-image">
+						<div class="team-info">
+							<span class="team-name" ><b>Anil Halder</b></span><br>
+							<span class="team-desig"  >Administrative Officer</span>
+						</div>
+					</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 team-div"  >
+					<div class="team-main wow fadeInUp">
+						<img src="static/img/ranjan1.jpeg" class="team-image">
+						<div class="team-info">
+							<span class="team-name" ><b>Ranjan Kumar Biswas</b></span><br>
+							<span class="team-desig"  >Marketing Executive</span>
+						</div>
+					</div>
+			</div>		
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 team-div"  >
+					<div class="team-main wow fadeInUp">
+						<img src="static/img/gopal.jpeg" class="team-image">
+						<div class="team-info">
+							<span class="team-name" ><b>Gopal Basu</b></span><br>
+							<span class="team-desig"  >Marketing Executive</span>
+						</div>
+					</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 team-div"  >
+					<div class="team-main wow fadeInUp">
+						<img src="static/img/krishna.jpeg" class="team-image">
+						<div class="team-info">
+							<span class="team-name" ><b>Krishna Paul</b></span><br>
+							<span class="team-desig"  >Senior Supervisor</span>
+						</div>
+					</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 team-div"  >
+					<div class="team-main wow fadeInUp">
+						<img src="static/img/sumit.jpeg" class="team-image">
+						<div class="team-info">
+							<span class="team-name" ><b>Sumit Bhattacharya</b></span><br>
+							<span class="team-desig"  >Store Incharge</span>
+						</div>
+					</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 team-div"  >
+					<div class="team-main wow fadeInUp">
+						<img src="static/img/putun.jpeg" class="team-image">
+						<div class="team-info">
+							<span class="team-name" ><b>Koushik Biswas</b></span><br>
+							<span class="team-desig"  >Field Supervisor</span>
+						</div>
+					</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 team-div"  >
+					<div class="team-main wow fadeInUp">
+						<img src="static/img/gogol.jpg" class="team-image">
+						<div class="team-info">
+							<span class="team-name" ><b>Arindam Basu</b></span><br>
+							<span class="team-desig"  >Technician</span>
+						</div>
+					</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<!--/team Section end /-->
+	
+
+
+  <!--/ footer Star /-->
+  <section class="section-footer" >
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand"style="color:Red">Flex Elevators</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                40/1, H.L. Sarkar Road, Bansdroni<br> Kolkata - 700070
+				</p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-a">
+                  <span class="color-text-a"><i class="fa fa-phone" style="color:Red" ></i></span>  +91 98837 68210 / +91 7596945627</li>
+                  <span class="color-text-a"><i class="fa fa-phone" style="color:Red"></i></span>  +91 9874346514</li>
+                <li class="color-a">
+                  <span class="color-text-a"><i class="fa fa-envelope" style="color:Red"></i></span> flexelevators18@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand"style="color:red">The Company</h3>
+            </div>
+            <div class="w-body-a">
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="contact.html" >Site Map</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="contact.html" >Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand" style="color:red">Get in Touch</h3>
+            </div>
+            <div class="w-body-a">
+				<div  class="contact-get-box-body">
+					<a target="_blank" href="https://www.linkedin.com/company/14548305/" title="Flex Elevators on Linkedin"><i class="fa fa-linkedin" style="color:#0077b5"></i></a>&nbsp;
+					<a  href="mailto:flexelevators18@gmail.com?Subject=Contacted%20from%20Website" title="Flex Elevators on Email"><i class="fa fa-envelope" style="color:#f14336"></i></a>&nbsp;
+					<a target="_blank" href="https://www.facebook.com/elevatorsflex/" title="Flex Elevators on facebook"><i class="fa fa-facebook" style="color:#3b5a9b"></i></a>&nbsp;
+					<i class="fa fa-whatsapp" style="color:#35b524" title="+91 98837 68210"></i>
+					
+				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+         
+          
+          <div class="copyright-footer">
+            <p class="copyright color-text-a">
+              &copy; Copyright
+              <span class="color-a">Flex Elevators</span> All Rights Reserved.
+            </p>
+          </div>
+          <div class="credits">
+           
+            Developed by  <a target="blank" href="https://chiranjit.dev/" title="Chiranjit's website" >Chiranjit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader" >
+	<div style="position:relative;width:100%;height:100%;text-align:center;padding-top:200px;">
+		<img src="static/img/flexlogo.jpeg" class="animated infinite bounce"  style="height:120px;" alt="Flex">
+	</div>
+  </div>
+
+  <!-- JavaScript flexraries -->
+  <script src="static/flex/jquery/jquery.min.js"></script>
+  <script src="static/css/bootstrap/js/bootstrap.min.js"></script>
+  <script src="static/flex/owlcarousel/owl.carousel.min.js"></script>
+  <script src="static/flex/scrollreveal/scrollreveal.min.js"></script>
+
+    
+
+  <!-- Template Main Javascript File -->
+  <script src="static/js/main.js"></script>
+  <script src="static/js/wow.min.js"></script>
+</body>
+</html>
+<script>
+new WOW().init();
+</script>
+<script>
+<!-- var activeHead = 'home';  -->
+ function scrolldiv(obj){
+		$('html, body').animate({
+			scrollTop: $("#"+obj).offset().top
+		}, 1500);
+		<!-- $("."+obj).addClass('active'); -->
+		<!-- $("."+activeHead).removeClass('active'); -->
+		<!-- activeHead = obj; -->
+	
+}
+</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135647451-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-135647451-1');
 </script>
 
-</body>
-</html>
+
+
+
+
